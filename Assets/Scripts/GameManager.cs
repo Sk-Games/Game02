@@ -36,6 +36,7 @@ public class GameManager : MonoBehaviour {
     private void Update()
     {
         playerMovement = FindObjectOfType<PlayerMovement>();
+        Debug.Log(Application.persistentDataPath);
     }
 
     public void IncrementScore ()
